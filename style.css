@@ -17,7 +17,7 @@ body {
     font-weight: bold;
     text-align: left;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -25,14 +25,47 @@ body {
 .cs-cyber-math-subheader {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     font-size: 30px;
+    font-style: italic;
     color: #09455d;
     font-weight: bold;
     text-align: left;
     line-height: 40px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.big-menu-items {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #09455d;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu-item-title {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.menu-item-title:hover {
+    color: #0d6182;
+}
+
+.menu-item-title:active {
+    color: #0E6F95;
+}
+
+.menu-item {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .social-icons {
@@ -50,7 +83,7 @@ body {
     color: #1399cd;
     text-decoration: none;
     font-size: 50px;
-    transition: color 0.15s, transform 0.15s;
+    transition: color 0.2s, transform 0.2s;
 }
 
 .social-icon:hover {
