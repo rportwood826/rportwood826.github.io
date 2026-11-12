@@ -1,7 +1,23 @@
 .rebecca-portwood-header {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-    font-size: 50px;
-    color:#03151D;
+    font-size: 70px;
+    color:#031c25;
     font-weight: bold;
     text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        to right,
+        #ffffff 0%,
+        #ffffff 50%,
+        #dfe4e6 50%,
+        #dfe4e6 100%
+    );
 }
