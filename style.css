@@ -1,15 +1,3 @@
-.rebecca-portwood-header {
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-    font-size: 80px;
-    color:#031c25;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
 body {
     height: 100vh;
     margin: 0;
@@ -20,4 +8,57 @@ body {
         #dfe4e6 50%,
         #dfe4e6 100%
     );
+}
+
+.rebecca-portwood-header {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 80px;
+    color: #031c25;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cs-cyber-math-subheader {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 30px;
+    color: #09455d;
+    font-weight: bold;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.social-icons {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-icon {
+    display: inline-block;
+    color: #1399cd;
+    text-decoration: none;
+    
+    font-size: 40px;
+    transition: color 0.15s, transform 0.15s;
+}
+
+.social-icon:hover {
+    color: #107da8;
+}
+
+.social-icon:active {
+    color: #0e6f95;
+    transform: scale(0.9);
 }
